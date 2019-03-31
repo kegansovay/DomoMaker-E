@@ -14,7 +14,7 @@ const csrf = require('csurf');
 
 const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
-const dbURL = process.env.MONGODB_URI || 'mongodb://heroku_xcs2kh3w:ju5kimfr40el6p2oolmi24cd30@ds161285.mlab.com:61285/heroku_xcs2kh3w';
+const dbURL = process.env.MONGODB_URI || 'mongodb://heroku_n24526bd:6ffo0c1vtegrhun2juasaqja50@ds017175.mlab.com:17175/heroku_n24526bd';
 
 mongoose.connect(dbURL, (err) => {
   if (err) {
